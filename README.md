@@ -45,6 +45,18 @@ RedM weaponshop made for redem_roleplay and redemrp_inventory
     ["arrows"] = "Arrows",
     ["knives"] = "Knife Reload",
  ```
+4. Under Config.Usable add 
+```
+    "22_ammo",
+    "rifle_ammo",
+    "shotgun_ammo",
+    "revolver_ammo",
+    "pistol_ammo",
+    "repeator_ammo",
+    "snipe_ammo",
+    "arrows",
+    "knives",
+```
 5. Profit
 
 # Required resource
