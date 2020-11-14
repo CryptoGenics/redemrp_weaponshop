@@ -22,7 +22,8 @@ Like this with the names below for weapons :
 		type = "item_weapon",
 	},
 
---
+
+With the names below 
     --weapons
     ["cattleman_w"] = "Cattleman",
     ["doubleaction_w"] = "DoubleAction",
