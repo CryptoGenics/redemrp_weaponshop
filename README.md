@@ -1,13 +1,30 @@
 # redemrp_weaponshop
-RedM weaponshop made for redem_roleplay and redemrp_inventory
+RedM weaponshop made for redem_roleplay and redemrp_inventory V2
 
 # Installation
 1. Clone this repository.
 2. Extract the zip.
 3. Put redemrp_weaponshop to your resource folder.
 4. Add "start redemrp_weaponshop" in your "server.cfg".
-5. In redemrp_inventory/Config.lua under Config.labels add 
-```    --weapons
+5. In redemrp_inventory/Config.lua under Config.Items add 
+
+Like this with the names below for weapons :
+
+```["WEAPON_REVOLVER_CATTLEMAN"] =
+	{
+		label = "Cattleman",
+		description = "",
+		weight = 0.9,
+		canBeDropped = true,
+		requireLvl = 0,
+		weaponHash = GetHashKey("WEAPON_REVOLVER_CATTLEMAN"),
+		imgsrc = "items/Cattleman.png",
+		type = "item_weapon",
+	},
+
+
+With the names below 
+    --weapons
     ["cattleman_w"] = "Cattleman",
     ["doubleaction_w"] = "DoubleAction",
     ["volcanic_w"] = "Volcanic",
@@ -33,7 +50,24 @@ RedM weaponshop made for redem_roleplay and redemrp_inventory
     ["throwing_w"] = "Throwing",
     ["tomahawk_w"] = "Tomahawk",
     ["lantern_r_w"] = "Lantern",
+```
 
+Then like this example with ammunition:
+```
+["revolver_ammo"] =
+    {
+        label = "Ammo Revolver",
+        description = "",
+        weight = 0.02,
+        canBeDropped = true,
+        canBeUsed = false,
+        requireLvl = 0,
+        limit = 64,
+        imgsrc = "items/ammo.png",
+        type = "item_standard",
+    },
+
+With the names below 
     -- ammos
     ["22_ammo"] = "22 Ammo",
     ["rifle_ammo"] = "Rifle Ammo",
@@ -45,18 +79,7 @@ RedM weaponshop made for redem_roleplay and redemrp_inventory
     ["arrows"] = "Arrows",
     ["knives"] = "Knife Reload",
  ```
-4. Under Config.Usable add 
-```
-    "22_ammo",
-    "rifle_ammo",
-    "shotgun_ammo",
-    "revolver_ammo",
-    "pistol_ammo",
-    "repeator_ammo",
-    "snipe_ammo",
-    "arrows",
-    "knives",
-```
+
 5. Profit
 
 # Required resource
