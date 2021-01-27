@@ -104,7 +104,6 @@ function ShopMenu()
             {label = "Melee Weapons", value = 'handguns'},
             {label = "Ammo", value = 'ammo'}
     }
-print('open')
     MenuData.Open('default', GetCurrentResourceName(), 'weaponshop_main', {
         title    = 'Weapon Shop',
         subtext    = 'choose a category',
