@@ -11,3 +11,6 @@ server_script {
 client_script {
 	'client.lua'
 }
+
+dependency 'redemrp_menu_base'
+
