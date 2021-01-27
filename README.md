@@ -65,7 +65,7 @@ Config.Usable = {
 - For Redemrp_inventory2 (weapon example)
 
 ```
-["WEAPON_REVOLVER_CATTLEMAN"] = {
+["cattleman_w"] = {
         label = "Cattleman",
         description = "",
         weight = 0.9,
