@@ -40,7 +40,6 @@ AddEventHandler('redemrp_gunshop:hasExitedMarker', function(zone)
         PromptSetVisible(ShopPrompt, false)
         active = false
     end
-    WarMenu.CloseMenu()
 	currentZone = nil
 end)
 
